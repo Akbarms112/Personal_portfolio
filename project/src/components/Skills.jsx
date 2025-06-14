@@ -20,7 +20,7 @@ const Skills = () => {
     {
       title: 'Backend Technologies',
       skills: [
-        { name: 'Node.js', level: 70, icon: FaNodeJs, color: 'text-green-500' },
+      //  { name: 'Node.js', level: 70, icon: FaNodeJs, color: 'text-green-500' },
         { name: 'PHP', level: 75, icon: FaPhp, color: 'text-purple-500' },
         { name: 'Python', level: 65, icon: FaPython, color: 'text-blue-400' },
         { name: 'Java', level: 70, icon: FaJava, color: 'text-red-500' },
@@ -30,7 +30,7 @@ const Skills = () => {
       title: 'Database & Tools',
       skills: [
         { name: 'MySQL', level: 80, icon: SiMysql, color: 'text-blue-600' },
-        { name: 'MongoDB', level: 65, icon: SiMongodb, color: 'text-green-600' },
+      //  { name: 'MongoDB', level: 65, icon: SiMongodb, color: 'text-green-600' },
         { name: 'Git', level: 75, icon: FaGitAlt, color: 'text-orange-600' },
         { name: 'Postman', level: 70, icon: SiPostman, color: 'text-orange-500' },
       ]

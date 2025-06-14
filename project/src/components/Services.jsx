@@ -52,7 +52,14 @@ const Services = () => {
       title: 'Personal Resume Website',
       link: 'https://akbarms112.github.io/resume/personal%20page%202/public/index.html',
       description: 'Developed my personal web page resume'
+    },
+    {
+      year: '2025',
+      title: 'Bike washing Website',
+      link: 'https://bike-wash2-7vwqv77nv-akbarms112s-projects.vercel.app/',
+      description: 'Developed my personal web page resume'
     }
+
   ]
 
   return (

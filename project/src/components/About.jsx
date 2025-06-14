@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { motion } from 'framer-motion'
+import { color, motion } from 'framer-motion'
 import { FaMapMarkerAlt } from 'react-icons/fa'
 import pic from '../Images/Pic.png'
 //import pic from '/Images/pic.jpg'
@@ -42,8 +42,8 @@ const About = () => {
        {
         year: '2025',
         title: 'Bike_Wash_Website',
-        link: 'http://localhost:5173/',
-        desc: 'Developed my personal web page resume'
+        link: 'https://bike-wash2-7vwqv77nv-akbarms112s-projects.vercel.app/',
+        desc: 'A responsive web application that allows users to book bike wash services online, choose packages, and manage appointments. Built using HTML, CSS, JavaScript, PHP, and MySQL, with an admin dashboard to handle bookings and customer data.'
       },
       
       
@@ -149,7 +149,8 @@ const About = () => {
                             href={project.link}
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="text-blue-400 hover:text-blue-300 underline"
+                            className="text-red-400 hover:text-blue-300 transition-colors duration-300"
+                            
                           >
                             Click to view
                           </a>
